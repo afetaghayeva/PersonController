@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.PersonsController.FindAll">
+            <summary>
+            findAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.PersonsController.FindById(System.Int32)">
+            <summary>
+            findById
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.PersonsController.Search(System.String)">
+            <summary>
+            search
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.PersonsController.Save(Entities.Concrete.Person)">
+            <summary>
+            save
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.PersonsController.Update(Entities.Concrete.Person,System.Int32)">
+            <summary>
+            update
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.PersonsController.Delete(System.Int32)">
+            <summary>
+            delete
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
